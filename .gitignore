@@ -1,0 +1,35 @@
+# Ambiente virtual
+venv/
+.env/
+*.env
+
+# Arquivos de índice FAISS
+*.index
+*.hnsw
+*.ivf
+
+# Dados de entrada e saída
+data/
+**/*.doc
+**/*.docx
+**/*.pdf
+**/__converted__/
+converted/
+*.tmp
+*.bak
+
+# Cache de modelos (HuggingFace, etc.)
+~/.cache/
+~/.huggingface/
+
+# PyCharm / VSCode / Jupyter
+.idea/
+.vscode/
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
