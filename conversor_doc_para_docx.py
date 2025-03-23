@@ -22,5 +22,5 @@ def convert_doc_to_docx(base_dir):
             print(f"❌ Erro ao converter {doc_path}: {e}")
 
 if __name__ == "__main__":
-    BASE_DIR = "D:/Gerorsch/CAP"  # <-- Altere para o caminho da sua base
+    BASE_DIR = "/home/gerorsch/Documents/CAP"  # <-- Altere para o caminho da sua base
     convert_doc_to_docx(BASE_DIR)

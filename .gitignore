@@ -7,7 +7,8 @@ venv/
 *.index
 *.hnsw
 *.ivf
-
+*.json
+*.jsonl
 # Dados de entrada e saída
 data/
 **/*.doc
